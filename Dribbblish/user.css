@@ -52,6 +52,10 @@ body {
     letter-spacing: normal;
 }
 
+.main-type-bass {
+    font-family: var(--glue-font-family);
+}
+
 .main-type-ballad {
     font-weight: 500;
 }
@@ -641,7 +645,7 @@ li.GlueDropTarget {
     padding-right: 64px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
     .contentSpacing,
     .artist-artistDiscography-headerContainer {
         padding-left: 128px;
